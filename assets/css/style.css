@@ -1,0 +1,68 @@
+
+/* p
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.link:link
+{
+    color:red
+}
+
+.visited:visited
+{
+    color: green;
+}
+
+.hover:hover
+{
+    color: hotpink;
+}
+
+.active:active
+{
+    color: blue;
+} */
+
+
+.box
+{
+
+    padding: 90px;}
+
+
+ .box table
+ {
+    width: 850px;
+    border-collapse: collapse; 
+ } 
+ 
+ .box table td,th
+ {
+    border-left: 1px solid #ddd; 
+    border-right: 1px solid #ddd;
+
+ }
+
+ .box th
+ {
+    text-align: left;
+    height: 40px;
+    background: #04aa6d;;
+    color: white;
+ }
+
+ .box tr:nth-child(odd)
+ {
+    background-color: #f2f2f2; ;
+ }
+
+ .box tr:hover
+ {
+    background-color: #d0cbcb;
+ }
+
+ tr:hover td
+ {
+    text-align: center;
+ }
